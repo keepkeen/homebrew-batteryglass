@@ -1,6 +1,6 @@
 cask "batteryglass" do
-  version "0.1.0"
-  sha256 "07b2775de7b16b9147f996d911536c4ad4e0e9fb4e6ac8b4e095f7ca0c246533"
+  version "0.1.1"
+  sha256 "bc6e364eef8d92f6b89c414bdd05324180f2ef25db1739a73433842f2c75d1c6"
 
   url "https://github.com/keepkeen/BatteryGlass/releases/download/v#{version}/BatteryGlass-#{version}-macOS.zip"
   name "BatteryGlass"
@@ -12,6 +12,7 @@ cask "batteryglass" do
   app "BatteryGlass.app"
 
   zap trash: [
+    "~/Library/Containers/com.liuliming.BatteryGlass.Widget/Data/Library/Application Support/BatteryGlass",
     "~/Library/Group Containers/group.com.liuliming.BatteryGlass",
     "~/Library/Preferences/com.liuliming.BatteryGlass.plist",
   ]
