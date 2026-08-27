@@ -1,6 +1,6 @@
 cask "batteryglass" do
-  version "0.1.1"
-  sha256 "bc6e364eef8d92f6b89c414bdd05324180f2ef25db1739a73433842f2c75d1c6"
+  version "0.2.0"
+  sha256 "48ad476e5f99536b2ab59c788dbbf36f1ebdc3cff73da5c281a11d061f815c82"
 
   url "https://github.com/keepkeen/BatteryGlass/releases/download/v#{version}/BatteryGlass-#{version}-macOS.zip"
   name "BatteryGlass"
